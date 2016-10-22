@@ -1,8 +1,10 @@
 # c--lexical-analyzer
-This is solution to an assignment question . its written in C++. 
-To compile:
+This is solution to an assignment question . its written in C++.  
+To compile:  
+    
     g++ -std=c++11 tokenizer.cpp  -o t
     ./t input
+
 
 ```
 Write a C/C++ program that implements a simple scanner for a source file given as a command-line argument. The format of the tokens is described below. You may assume that the input is syntactically correct. Your program should build a symbol table (a hash table is a good choice), which contains an entry for each token that was found in the input. When all the input has been read, your program should produce a summary report that includes a list of all the tokens that appeared in the input, the number of times each token appears in the input and the class of each token. Your program should also list how many times tokens of each class appeared in the input.
